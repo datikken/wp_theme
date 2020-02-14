@@ -1,3 +1,13 @@
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: tikken
+ * Date: 2/14/20
+ * Time: 7:12 AM
+ */
+?>
+
+<!--MENU-->
 <div class="menu">
     <div class="menu_wrapper">
         <div class="menu_wrapper-item">
@@ -146,3 +156,5 @@
         </div>
     </div>
 </div>
+<!--MENU-->
+
