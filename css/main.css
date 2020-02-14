@@ -83,7 +83,7 @@ a:hover {
     .header_wrapper-item_contacts {
       position: relative; }
       .header_wrapper-item_contacts-icon {
-        background-image: url("/wp-content/themes/Archive-1/img//header/contact.svg");
+        background-image: url("/wp-content/themes/Archive/img//header/contact.svg");
         width: 30px;
         height: 30px;
         position: absolute;
@@ -116,7 +116,7 @@ a:hover {
         color: #3559fd;
         cursor: pointer; }
     .header_wrapper-item_logo {
-      background-image: url("/wp-content/themes/Archive-1/img/header/LOGO.png");
+      background-image: url("/wp-content/themes/Archive/img/header/LOGO.png");
       width: 110px;
       height: 50px;
       background-repeat: no-repeat;
@@ -374,7 +374,7 @@ a:hover {
       .menu_wrapper-item_cart_icon {
         width: 31px;
         height: 31px;
-        background-image: url("/wp-content/themes/Archive-1/img//menu/cart.svg");
+        background-image: url("/wp-content/themes/Archive/img//menu/cart.svg");
         margin-left: 20px;
         cursor: pointer;
         position: relative; }
@@ -409,7 +409,7 @@ a:hover {
         margin-left: 20px;
         color: #3559fd; }
       .menu_wrapper-item_cart_currency {
-        background-image: url("/wp-content/themes/Archive-1/img//menu/rub.svg");
+        background-image: url("/wp-content/themes/Archive/img//menu/rub.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -430,7 +430,7 @@ a:hover {
         .menu_wrapper-item_personal_icon {
           width: 24px;
           height: 18px;
-          background-image: url("/wp-content/themes/Archive-1/img//menu/login.svg"); }
+          background-image: url("/wp-content/themes/Archive/img//menu/login.svg"); }
         .menu_wrapper-item_personal_text {
           font-size: 12px;
           line-height: 14px;
@@ -453,7 +453,7 @@ a:hover {
         margin-left: 30px;
         cursor: pointer; }
         .menu_wrapper-item_tracking_icon {
-          background-image: url("/wp-content/themes/Archive-1/img//menu/tracking.svg");
+          background-image: url("/wp-content/themes/Archive/img//menu/tracking.svg");
           width: 24px;
           height: 14.86px;
           background-repeat: no-repeat;
@@ -518,7 +518,7 @@ a:hover {
               width: 70px; } }
           .menu_wrapper-item_search_button:after {
             content: "";
-            background-image: url("/wp-content/themes/Archive-1/img//menu/zoomin.svg");
+            background-image: url("/wp-content/themes/Archive/img//menu/zoomin.svg");
             height: 15px;
             width: 15px;
             cursor: pointer;
@@ -528,7 +528,7 @@ a:hover {
             -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%); }
       .menu_wrapper-item_hamburger {
-        background-image: url("/wp-content/themes/Archive-1/img//menu/hamburger.svg");
+        background-image: url("/wp-content/themes/Archive/img//menu/hamburger.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -537,7 +537,7 @@ a:hover {
         cursor: pointer; }
         @media screen and (max-width: 450px) {
           .menu_wrapper-item_hamburger {
-            background-image: url("/wp-content/themes/Archive-1/img//menu/hamburger2.svg"); } }
+            background-image: url("/wp-content/themes/Archive/img//menu/hamburger2.svg"); } }
       .menu_wrapper-item_menuText {
         font-style: normal;
         font-weight: 600;
@@ -605,7 +605,7 @@ a:hover {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img/menu/tracking.svg");
+          background-image: url("/wp-content/themes/Archive/img/menu/tracking.svg");
           width: 20px;
           height: 12.38px;
           margin-right: 10px;
@@ -624,7 +624,7 @@ a:hover {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img/menu/login.svg");
+          background-image: url("/wp-content/themes/Archive/img/menu/login.svg");
           width: 20px;
           height: 12.38px;
           margin-right: 10px;
@@ -642,7 +642,7 @@ a:hover {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img/menu/cart.svg");
+          background-image: url("/wp-content/themes/Archive/img/menu/cart.svg");
           width: 20px;
           height: 12.38px;
           margin-right: 10px;
@@ -654,7 +654,7 @@ a:hover {
         .menu_wrapper-item_secondary-item_list-item:nth-child(11) .menu_Wrapper-item_secondary-item_list-item-text:before {
           content: "";
           display: block;
-          background-image: url("/wp-content/themes/Archive-1/img/header/contact.svg");
+          background-image: url("/wp-content/themes/Archive/img/header/contact.svg");
           width: 30px;
           height: 30px;
           margin-left: 15px; }
@@ -680,7 +680,7 @@ a:hover {
         .menu_wrapper-item_secondary-item_list-item-text:after {
           content: "";
           display: block;
-          background-image: url("/wp-content/themes/Archive-1/img/icons/arrow_right.svg");
+          background-image: url("/wp-content/themes/Archive/img/icons/arrow_right.svg");
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
@@ -867,11 +867,11 @@ footer {
           margin-right: 30px;
           cursor: pointer; }
         footer .footer_wrapper-item_social_facebook {
-          background-image: url("/wp-content/themes/Archive-1/img//social/facebook.svg"); }
+          background-image: url("/wp-content/themes/Archive/img//social/facebook.svg"); }
         footer .footer_wrapper-item_social_instagram {
-          background-image: url("/wp-content/themes/Archive-1/img//social/instagram.svg"); }
+          background-image: url("/wp-content/themes/Archive/img//social/instagram.svg"); }
         footer .footer_wrapper-item_social_email {
-          background-image: url("/wp-content/themes/Archive-1/img//social/mail.svg"); }
+          background-image: url("/wp-content/themes/Archive/img//social/mail.svg"); }
       footer .footer_wrapper-item_logo {
         font-weight: bold;
         font-size: 36px;
@@ -905,7 +905,7 @@ footer {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img//header/contact.svg");
+          background-image: url("/wp-content/themes/Archive/img//header/contact.svg");
           width: 30px;
           height: 25px;
           margin-right: 10px; }
@@ -961,7 +961,7 @@ footer {
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("/wp-content/themes/Archive-1/img//icons/arrow_right.svg");
+      background-image: url("/wp-content/themes/Archive/img//icons/arrow_right.svg");
       -ms-transform: rotate(90deg);
           transform: rotate(90deg); }
       @media screen and (min-width: 600px) {
@@ -1090,21 +1090,21 @@ footer {
             .payments_wrap-item_inner-icon {
               margin-left: 13px; } }
         .payments_wrap-item_inner .visa {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/visa.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/visa.svg"); }
         .payments_wrap-item_inner .paypal {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/paypal.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/paypal.svg"); }
         .payments_wrap-item_inner .mastercard {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/mastercard.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/mastercard.svg"); }
         .payments_wrap-item_inner .maestro {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/maestro.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/maestro.svg"); }
         .payments_wrap-item_inner .ebay {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/maestro.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/maestro.svg"); }
         .payments_wrap-item_inner .apple {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/apple.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/apple.svg"); }
         .payments_wrap-item_inner .google {
-          background-image: url("/wp-content/themes/Archive-1/img/payments/google.svg"); }
+          background-image: url("/wp-content/themes/Archive/img/payments/google.svg"); }
         .payments_wrap-item_inner .webmoney {
-          background-image: url("/wp-content/themes/Archive-1/img//payments/webmoney.svg"); }
+          background-image: url("/wp-content/themes/Archive/img//payments/webmoney.svg"); }
 
 .swiper-container {
   height: 200px !important; }
@@ -1158,11 +1158,11 @@ footer {
     display: none; }
 
 .swiper-button-next {
-  background-image: url("/wp-content/themes/Archive-1/img//swiper/rightArr.svg");
+  background-image: url("/wp-content/themes/Archive/img//swiper/rightArr.svg");
   right: 20px; }
 
 .swiper-button-prev {
-  background-image: url("/wp-content/themes/Archive-1/img//swiper/leftArr.svg");
+  background-image: url("/wp-content/themes/Archive/img//swiper/leftArr.svg");
   left: 21px;
   top: 51.5%; }
 
@@ -1251,9 +1251,9 @@ footer {
       width: 230px;
       height: 219.02px;
       margin-bottom: 40px;
-      background-image: url("/wp-content/themes/Archive-1/img//banner/banner.png"); }
+      background-image: url("/wp-content/themes/Archive/img//banner/banner.png"); }
     .banner-wrapper_image2 {
-      background-image: url("/wp-content/themes/Archive-1/img//banner/banner2.png");
+      background-image: url("/wp-content/themes/Archive/img//banner/banner2.png");
       height: 230px; }
     .banner-wrapper_heading {
       display: -ms-flexbox;
@@ -1389,7 +1389,7 @@ footer {
           width: 67%;
           margin: 0 auto;
           height: 96%;
-          background-image: url("/wp-content/themes/Archive-1/img//unnecessary/product_mob.png");
+          background-image: url("/wp-content/themes/Archive/img//unnecessary/product_mob.png");
           background-size: contain;
           background-position: bottom;
           background-repeat: no-repeat; }
@@ -1397,7 +1397,7 @@ footer {
             .banners_wrap-item_inner_img {
               background-position: center; } }
         .banners_wrap-item_inner .banners_wrap-item_inner_img2 {
-          background-image: url("/wp-content/themes/Archive-1/img//unnecessary/product_mob2.png"); }
+          background-image: url("/wp-content/themes/Archive/img//unnecessary/product_mob2.png"); }
         .banners_wrap-item_inner_text {
           width: 100%;
           display: -ms-flexbox;
@@ -1429,7 +1429,7 @@ footer {
               width: 30px;
               content: "";
               display: block;
-              background-image: url("/wp-content/themes/Archive-1/img//icons/details_btn.svg");
+              background-image: url("/wp-content/themes/Archive/img//icons/details_btn.svg");
               background-repeat: no-repeat;
               background-size: contain;
               background-position: center;
@@ -1489,7 +1489,7 @@ footer {
         background-size: contain;
         background-position: center;
         cursor: pointer;
-        background-image: url("/wp-content/themes/Archive-1/img//unnecessary/viewed_product.png");
+        background-image: url("/wp-content/themes/Archive/img//unnecessary/viewed_product.png");
         border: none;
         max-width: 100px;
         height: 100px;
@@ -1541,7 +1541,7 @@ footer {
           .viewed_wrapper-item_text-price:after {
             content: "";
             display: block;
-            background-image: url("/wp-content/themes/Archive-1/img//menu/rub.svg");
+            background-image: url("/wp-content/themes/Archive/img//menu/rub.svg");
             height: 10px;
             width: 8px;
             background-repeat: no-repeat;
@@ -1612,9 +1612,9 @@ footer {
           background-size: cover;
           background-position: center; }
         .sales-wrapper_item-inner .image1 {
-          background-image: url("/wp-content/themes/Archive-1/img//unnecessary/item1.png"); }
+          background-image: url("/wp-content/themes/Archive/img//unnecessary/item1.png"); }
         .sales-wrapper_item-inner .image2 {
-          background-image: url("/wp-content/themes/Archive-1/img//unnecessary/item2.png"); }
+          background-image: url("/wp-content/themes/Archive/img//unnecessary/item2.png"); }
         .sales-wrapper_item-inner_info {
           font-family: "Montserrat", sans-serif;
           font-style: normal;
@@ -1705,7 +1705,7 @@ footer {
         background-position: center;
         width: 370px;
         height: 135px;
-        background-image: url("/wp-content/themes/Archive-1/img//unnecessary/timer.png"); }
+        background-image: url("/wp-content/themes/Archive/img//unnecessary/timer.png"); }
       .sales_slider-wrapper_ctas-heading span:first-child {
         font-weight: 600;
         font-size: 18px;
@@ -1747,14 +1747,14 @@ footer {
     .sales_slider-wrapper_background {
       width: 870px;
       height: 360px;
-      background-image: url("/wp-content/themes/Archive-1/img//unnecessary/sales_slider.png");
+      background-image: url("/wp-content/themes/Archive/img//unnecessary/sales_slider.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; }
 
 .sales_best {
   width: 100%;
-  background-image: url("/wp-content/themes/Archive-1/img//unnecessary/banner_black.png");
+  background-image: url("/wp-content/themes/Archive/img//unnecessary/banner_black.png");
   background-repeat: no-repeat;
   cursor: pointer;
   height: 100%;
@@ -1793,7 +1793,7 @@ footer {
             -ms-flex-align: center;
                 align-items: center; } }
       .sales_best-wrapper_item-decor {
-        background-image: url("/wp-content/themes/Archive-1/img//sales_best/decor.svg");
+        background-image: url("/wp-content/themes/Archive/img//sales_best/decor.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -1876,7 +1876,7 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img//unnecessary/sales_best.png"); }
+          background-image: url("/wp-content/themes/Archive/img//unnecessary/sales_best.png"); }
       .sales_best-wrapper_item-content_heading {
         font-family: "Montserrat", sans-serif;
         font-style: normal;
@@ -1911,7 +1911,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-image: url("/wp-content/themes/Archive-1/img//eco_programm/banner.png");
+    background-image: url("/wp-content/themes/Archive/img//eco_programm/banner.png");
     cursor: pointer; }
 
 @media not all and (min-resolution: 0.001dpcm) {
@@ -2030,7 +2030,7 @@ footer {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img//unnecessary/item.png");
+          background-image: url("/wp-content/themes/Archive/img//unnecessary/item.png");
           max-height: 80px; }
       @media screen and (min-width: 600px) {
         .news_wrapper-block-item_inner {
@@ -2232,7 +2232,7 @@ footer {
       cursor: pointer; }
       .carousel_card-wrapper_item-buttons_cart:after {
         content: "";
-        background-image: url("/wp-content/themes/Archive-1/img//menu/cart.svg");
+        background-image: url("/wp-content/themes/Archive/img//menu/cart.svg");
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: center;
@@ -2251,7 +2251,7 @@ footer {
       .carousel_card-wrapper_item-buttons_price:after {
         content: "";
         position: absolute;
-        background-image: url("/wp-content/themes/Archive-1/img//menu/rub.svg");
+        background-image: url("/wp-content/themes/Archive/img//menu/rub.svg");
         height: 10px;
         width: 8px;
         background-repeat: no-repeat;
@@ -2276,7 +2276,7 @@ footer {
         height: 100%;
         max-height: 270px; } }
   .carousel_card-wrapper_item-image {
-    background-image: url("/wp-content/themes/Archive-1/img//unnecessary/image.svg");
+    background-image: url("/wp-content/themes/Archive/img//unnecessary/image.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2348,7 +2348,7 @@ footer {
           color: #40404c; }
       .breadcrumbs_list--item:after {
         content: '';
-        background-image: url("/wp-content/themes/Archive-1/img//icons/arrow_right.svg");
+        background-image: url("/wp-content/themes/Archive/img//icons/arrow_right.svg");
         height: 10px;
         width: 4px;
         display: block;
@@ -2457,16 +2457,16 @@ footer {
         -ms-flex-align: center;
             align-items: center; }
         .product_wrapper-item_amount:before {
-          background-image: url("/wp-content/themes/Archive-1/img//icons/alot.svg");
+          background-image: url("/wp-content/themes/Archive/img//icons/alot.svg");
           width: 10px;
           height: 10px;
           display: block;
           content: "";
           margin-right: 10px; }
       .product_wrapper-item_image2 {
-        background-image: url("/wp-content/themes/Archive-1/img//unnecessary/product2.png") !important; }
+        background-image: url("/wp-content/themes/Archive/img//unnecessary/product2.png") !important; }
       .product_wrapper-item_image {
-        background-image: url("/wp-content/themes/Archive-1/img//unnecessary/product1.png");
+        background-image: url("/wp-content/themes/Archive/img//unnecessary/product1.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -2505,7 +2505,7 @@ footer {
         .product_wrapper-item_price:after {
           display: block;
           content: "";
-          background-image: url("/wp-content/themes/Archive-1/img//menu/rub.svg");
+          background-image: url("/wp-content/themes/Archive/img//menu/rub.svg");
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
@@ -2548,7 +2548,7 @@ footer {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/product_cart.png");
+        background-image: url("/wp-content/themes/Archive/img//icons/product_cart.png");
         width: 30px;
         height: 30px; }
         @media screen and (min-width: 600px) {
@@ -2589,7 +2589,7 @@ footer {
       .filters_wrapper-item_text:after {
         content: "";
         display: block;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/arrow_right.svg");
+        background-image: url("/wp-content/themes/Archive/img//icons/arrow_right.svg");
         height: 10px;
         width: 4px;
         background-repeat: no-repeat;
@@ -2620,7 +2620,7 @@ footer {
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
-          background-image: url("/wp-content/themes/Archive-1/img//icons/bullet.svg");
+          background-image: url("/wp-content/themes/Archive/img//icons/bullet.svg");
           width: 10px;
           height: 10px;
           margin-right: 10px; }
@@ -3086,13 +3086,13 @@ footer {
               .details_wrapper-item_product-item_info-props-color, .details_wrapper-item_product-item_info-props-chip, .details_wrapper-item_product-item_info-props-new, .details_wrapper-item_product-item_info-props-standart {
                 margin: 25px 15px; } }
           .details_wrapper-item_product-item_info-props-color {
-            background-image: url("/wp-content/themes/Archive-1/img//product_details/color.svg"); }
+            background-image: url("/wp-content/themes/Archive/img//product_details/color.svg"); }
           .details_wrapper-item_product-item_info-props-chip {
-            background-image: url("/wp-content/themes/Archive-1/img//product_details/chip.svg"); }
+            background-image: url("/wp-content/themes/Archive/img//product_details/chip.svg"); }
           .details_wrapper-item_product-item_info-props-new {
-            background-image: url("/wp-content/themes/Archive-1/img//product_details/new.svg"); }
+            background-image: url("/wp-content/themes/Archive/img//product_details/new.svg"); }
           .details_wrapper-item_product-item_info-props-standart {
-            background-image: url("/wp-content/themes/Archive-1/img//product_details/standart.svg"); }
+            background-image: url("/wp-content/themes/Archive/img//product_details/standart.svg"); }
         .details_wrapper-item_product-item_info-amount {
           -ms-flex-direction: column;
               flex-direction: column; }
@@ -3217,7 +3217,7 @@ footer {
                 display: block;
                 width: 20px;
                 height: 20px;
-                background-image: url("/wp-content/themes/Archive-1/img//menu/cart.svg");
+                background-image: url("/wp-content/themes/Archive/img//menu/cart.svg");
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
@@ -3291,7 +3291,7 @@ footer {
               background-repeat: no-repeat;
               background-size: contain;
               background-position: center;
-              background-image: url("/wp-content/themes/Archive-1/img//icons/rub.svg"); }
+              background-image: url("/wp-content/themes/Archive/img//icons/rub.svg"); }
           .details_wrapper-item_product-item_info-amount .details_wrapper-item_product-item_info-discount-item-text {
             margin-bottom: 5px;
             font-family: "Montserrat", sans-serif;
@@ -3309,7 +3309,7 @@ footer {
               background-repeat: no-repeat;
               background-size: contain;
               background-position: center;
-              background-image: url("/wp-content/themes/Archive-1/img//icons/info.svg");
+              background-image: url("/wp-content/themes/Archive/img//icons/info.svg");
               margin-left: 2px; }
           .details_wrapper-item_product-item_info-amount-item {
             margin-right: 50px; }
@@ -3333,7 +3333,7 @@ footer {
                 display: block;
                 width: 10px;
                 height: 8px;
-                background-image: url("/wp-content/themes/Archive-1/img//icons/ok.svg");
+                background-image: url("/wp-content/themes/Archive/img//icons/ok.svg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -3362,7 +3362,7 @@ footer {
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
-                background-image: url("/wp-content/themes/Archive-1/img//icons/rub.svg");
+                background-image: url("/wp-content/themes/Archive/img//icons/rub.svg");
                 margin-left: 5px; }
 
 .details-swiper {
@@ -3436,7 +3436,7 @@ footer {
       background-size: center;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("/wp-content/themes/Archive-1/img//icons/black_arrow.svg");
+      background-image: url("/wp-content/themes/Archive/img//icons/black_arrow.svg");
       width: 10px;
       height: 10px;
       position: absolute;
@@ -3534,7 +3534,7 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/like.svg"); }
+        background-image: url("/wp-content/themes/Archive/img//icons/like.svg"); }
       .comments_wrap-item_like-text {
         font-family: "Montserrat", sans-serif;
         font-size: 12px;
@@ -3577,7 +3577,7 @@ footer {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      background-image: url("/wp-content/themes/Archive-1/img//unnecessary/ava.png"); }
+      background-image: url("/wp-content/themes/Archive/img//unnecessary/ava.png"); }
 
 .lslide img {
   display: block;
@@ -3747,7 +3747,7 @@ footer {
           .form_wrap-item_control-check:before {
             content: "";
             display: block;
-            background-image: url("/wp-content/themes/Archive-1/img//icons/ok2.svg");
+            background-image: url("/wp-content/themes/Archive/img//icons/ok2.svg");
             height: 20px;
             width: 20px;
             margin-right: 10px;
@@ -3868,10 +3868,10 @@ footer {
         background-position: center;
         margin-left: 10px;
         margin-top: 0;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/arrow_right_white.svg"); }
+        background-image: url("/wp-content/themes/Archive/img//icons/arrow_right_white.svg"); }
         @media screen and (min-width: 600px) {
           .cart_wrap-crumb-item:after {
-            background-image: url("/wp-content/themes/Archive-1/img//icons/arrow_right.svg"); } }
+            background-image: url("/wp-content/themes/Archive/img//icons/arrow_right.svg"); } }
   .cart_wrap-item_inner-total {
     padding: 20px;
     border: 1px solid #e9e9ea;
@@ -3943,7 +3943,7 @@ footer {
         position: relative; }
         .cart_wrap-item_inner-total_inner-item:nth-child(2):after {
           top: 12.5px;
-          background-image: url("/wp-content/themes/Archive-1/img//icons/rubFat.svg") !important; }
+          background-image: url("/wp-content/themes/Archive/img//icons/rubFat.svg") !important; }
           @media screen and (min-width: 600px) {
             .cart_wrap-item_inner-total_inner-item:nth-child(2):after {
               display: none; } }
@@ -4026,7 +4026,7 @@ footer {
       .cart_wrap-item_inner-table_row-col_delete {
         height: 10px;
         width: 10px;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/cart_delete.svg");
+        background-image: url("/wp-content/themes/Archive/img//icons/cart_delete.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -4127,7 +4127,7 @@ footer {
           position: relative; }
           .cart_wrap-item_inner-table_row-col_price-item:after {
             top: 10px;
-            background-image: url("/wp-content/themes/Archive-1/img//icons/rubFat.svg") !important; }
+            background-image: url("/wp-content/themes/Archive/img//icons/rubFat.svg") !important; }
             @media screen and (min-width: 600px) {
               .cart_wrap-item_inner-table_row-col_price-item:after {
                 display: none; } }
@@ -4156,7 +4156,7 @@ footer {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        background-image: url("/wp-content/themes/Archive-1/img//unnecessary/product_cart.svg"); }
+        background-image: url("/wp-content/themes/Archive/img//unnecessary/product_cart.svg"); }
       .cart_wrap-item_inner-table_row-col_desc {
         -ms-flex-preferred-size: 80%;
             flex-basis: 80%;
@@ -4212,7 +4212,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url("/wp-content/themes/Archive-1/img//sales_best/sales.png");
+  background-image: url("/wp-content/themes/Archive/img//sales_best/sales.png");
   height: 100%;
   max-height: 200px;
   margin: 0 10px 0 8px; }
@@ -4285,11 +4285,11 @@ footer {
     .info .info_content-item_inner:nth-child(2) {
       margin-left: 10px; }
     .info .info_content-item_inner .payment {
-      background-image: url("/wp-content/themes/Archive-1/img//icons/payment.svg"); }
+      background-image: url("/wp-content/themes/Archive/img//icons/payment.svg"); }
     .info .info_content-item_inner .delivery {
-      background-image: url("/wp-content/themes/Archive-1/img//icons/delivery.svg"); }
+      background-image: url("/wp-content/themes/Archive/img//icons/delivery.svg"); }
     .info .info_content-item_inner .guaranty {
-      background-image: url("/wp-content/themes/Archive-1/img//icons/guaranty.svg"); }
+      background-image: url("/wp-content/themes/Archive/img//icons/guaranty.svg"); }
     .info .info_content-item_inner-icon {
       min-height: 40px;
       min-width: 40px;
@@ -4371,13 +4371,13 @@ footer {
       background-repeat: no-repeat;
       cursor: pointer; }
     .contacts_wrap-item_socials-item .telegram {
-      background-image: url("/wp-content/themes/Archive-1/img/icons/telegram.svg"); }
+      background-image: url("/wp-content/themes/Archive/img/icons/telegram.svg"); }
     .contacts_wrap-item_socials-item .facebook {
-      background-image: url("/wp-content/themes/Archive-1/img/icons/facebook.svg"); }
+      background-image: url("/wp-content/themes/Archive/img/icons/facebook.svg"); }
     .contacts_wrap-item_socials-item .vk {
-      background-image: url("/wp-content/themes/Archive-1/img/icons/vk.svg"); }
+      background-image: url("/wp-content/themes/Archive/img/icons/vk.svg"); }
     .contacts_wrap-item_socials-item .insta {
-      background-image: url("/wp-content/themes/Archive-1/img/icons/instagram.svg"); }
+      background-image: url("/wp-content/themes/Archive/img/icons/instagram.svg"); }
   @media screen and (min-width: 600px) {
     .contacts_wrap-item_inner-inputs-wrap {
       display: -ms-flexbox;
@@ -4442,7 +4442,7 @@ footer {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/mail.svg");
+        background-image: url("/wp-content/themes/Archive/img//icons/mail.svg");
         margin-right: 10px; }
     .contacts_wrap-item_inner-item-tel {
       font-family: "Montserrat-semibold", sans-serif;
@@ -4469,7 +4469,7 @@ footer {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        background-image: url("/wp-content/themes/Archive-1/img//icons/tel.svg");
+        background-image: url("/wp-content/themes/Archive/img//icons/tel.svg");
         margin-right: 10px; }
     .contacts_wrap-item_inner-item-text {
       font-family: "Montserrat-semibold", sans-serif;
@@ -4488,11 +4488,11 @@ footer {
     background-size: contain;
     background-position: center; }
   .contacts_wrap-item_inner-timing {
-    background-image: url("/wp-content/themes/Archive-1/img//icons/telephone.svg"); }
+    background-image: url("/wp-content/themes/Archive/img//icons/telephone.svg"); }
   .contacts_wrap-item_inner-contacts {
-    background-image: url("/wp-content/themes/Archive-1/img//icons/telephone.svg"); }
+    background-image: url("/wp-content/themes/Archive/img//icons/telephone.svg"); }
   .contacts_wrap-item_inner-location {
-    background-image: url("/wp-content/themes/Archive-1/img//icons/location.svg"); }
+    background-image: url("/wp-content/themes/Archive/img//icons/location.svg"); }
   .contacts_wrap-item_inner-item-desc {
     font-family: "Montserrat", sans-serif;
     font-size: 11px;
@@ -4517,7 +4517,7 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-image: url("/wp-content/themes/Archive-1/img//icons/feedback.svg"); }
+    background-image: url("/wp-content/themes/Archive/img//icons/feedback.svg"); }
   .contacts_feedback .contacts_wrap-item_inner .contacts_wrap-item_inner-item_form_control-heading {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -4693,7 +4693,7 @@ footer {
   margin: 0 auto;
   margin-bottom: 70px; }
   .hits_hero-wrap {
-    background-image: url("/wp-content/themes/Archive-1/img//hits/hits.svg");
+    background-image: url("/wp-content/themes/Archive/img//hits/hits.svg");
     width: 100%;
     max-width: 828px;
     height: 414px;
@@ -4837,14 +4837,14 @@ footer {
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url("/wp-content/themes/Archive-1/img//hits/hits_printer.svg"); }
+      background-image: url("/wp-content/themes/Archive/img//hits/hits_printer.svg"); }
     .hits-items_column:nth-child(3) .hits-items_column-item:nth-child(2) .hits-items_column-item-image {
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
       height: 100%;
       background-repeat: no-repeat;
-      background-image: url("/wp-content/themes/Archive-1/img/hits/hits_printer2.svg"); }
+      background-image: url("/wp-content/themes/Archive/img/hits/hits_printer2.svg"); }
     .hits-items_column-item {
       padding: 10px 40px;
       border-bottom: 1px solid #e9e9ea; }
@@ -4974,7 +4974,7 @@ footer {
           display: block;
           width: 20px;
           height: 20px;
-          background-image: url("/wp-content/themes/Archive-1/img//menu/cart.svg");
+          background-image: url("/wp-content/themes/Archive/img//menu/cart.svg");
           background-repeat: no-repeat;
           background-size: contain;
           background-position: center;
@@ -5176,10 +5176,10 @@ body {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/wp-content/themes/Archive-1/img//img/fonts/Montserrat-Regular.ttf"); }
+  src: url("/wp-content/themes/Archive/img//img/fonts/Montserrat-Regular.ttf"); }
 
 @font-face {
   font-family: "Montserrat-semibold";
-  src: url("/wp-content/themes/Archive-1/img/fonts/Montserrat-semibold.ttf"); }
+  src: url("/wp-content/themes/Archive/img/fonts/Montserrat-semibold.ttf"); }
 
 /*# sourceMappingURL=main.css.map*/
