@@ -17,7 +17,7 @@
 
         <?php get_template_part('_partials/news/news'); ?>
         <?php get_template_part('_partials/sales/sales-eco'); ?>
-        <?php get_template_part('_partials/banner/banner'); ?>
+        <?php get_template_part('_partials/banners/banner'); ?>
         <?php get_template_part('_partials/viewed/viewed'); ?>
 
     </div>
@@ -27,9 +27,7 @@
 <div class="columns desktop-layout">
     <div class="left_column">
         <?php get_template_part('_partials/news/news'); ?>
-
-        <?php get_template_part('_partials/banner/banner'); ?>
-
+        <?php get_template_part('_partials/banners/banner'); ?>
         <?php get_template_part('_partials/viewed/viewed'); ?>
     </div>
 
