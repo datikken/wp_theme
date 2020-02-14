@@ -1,0 +1,158 @@
+.menu_wrapper-item_secondary {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #fff;
+  box-shadow: 50px 10px 50px rgba(0, 0, 0, 0.1);
+  transition: visibility 0.2s;
+  visibility: hidden;
+  z-index: 99;
+  min-width: 315px;
+
+  &-item {
+    &_list {
+      height: 91vh;
+      overflow-y: auto;
+        // safari
+      @media not all and (min-resolution:.001dpcm) {
+        height: 503px;
+      }
+      @include breakpoint($phone) {
+        height: initial;
+      }
+
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      overflow: auto;
+      &-item {
+        padding: 15px 0;
+        margin: 0 15px;
+        font-family: $font;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        color: #40404c;
+        border-bottom: 1px solid $light_gray;
+         a{
+           color: $black!important;
+         }
+
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(12),
+        &:nth-child(5) {
+          .menu_Wrapper-item_secondary-item_list-item-text {
+            &:after {
+              display: none;
+            }
+          }
+        }
+        &:nth-child(7) {
+          border-bottom: 0;
+        }
+
+        &:nth-child(8) {
+          display: flex;
+          align-items: center;
+          background: $light_gray;
+          margin: 0;
+
+          &:before {
+            content: "";
+            display: block;
+            @include bg(contain, center);
+            background-image: url($path + "menu/tracking.svg");
+            width: 20px;
+            height: 12.38px;
+            margin-right: 10px;
+            margin-left: 15px;
+          }
+        }
+
+        &:nth-child(9) {
+          display: flex;
+          align-items: center;
+          background: $light_gray;
+          margin: 0;
+          border-bottom: $breadcrumb;
+
+          &:before {
+            content: "";
+            display: block;
+            @include bg(contain, center);
+            background-image: url($path + "menu/login.svg");
+            width: 20px;
+            height: 12.38px;
+            margin-right: 10px;
+            margin-left: 15px;
+          }
+        }
+
+        &:nth-child(10) {
+          display: flex;
+          align-items: center;
+          background: $light_gray;
+          margin: 0;
+
+          &:before {
+            content: "";
+            display: block;
+            @include bg(contain, center);
+            background-image: url($path + "menu/cart.svg");
+            width: 20px;
+            height: 12.38px;
+            margin-right: 10px;
+            margin-left: 15px;
+          }
+        }
+
+        &:nth-child(11) {
+          margin: 0;
+          .menu_Wrapper-item_secondary-item_list-item-text {
+            &:after {
+              display: none;
+            }
+            &:before {
+              content: "";
+              display: block;
+              background-image: url($path + "header/contact.svg");
+              width: 30px;
+              height: 30px;
+              margin-left: 15px;
+            }
+            &_inner {
+              display: flex;
+              flex-direction: column;
+              margin-left: 10px;
+              span {
+                &:first-child {
+                  font-family: $semifont !important;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+
+        &-text {
+          width: 100%;
+          @include flex(center, flex-start, wrap);
+
+          &:after {
+            content: "";
+            display: block;
+            background-image: url($path + "icons/arrow_right.svg");
+            @include bg(contain, center);
+            background-repeat: no-repeat;
+            width: 6.17px;
+            height: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

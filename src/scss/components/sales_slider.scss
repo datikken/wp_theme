@@ -1,0 +1,101 @@
+.sales_slider {
+  width: 870px;
+  height: 360px;
+  margin-bottom: 50px;
+  display: none;
+  @include breakpoint($phone) {
+    display: block;
+  }
+
+  &-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    &_ctas {
+      position: absolute;
+      @include absCenter();
+      left: 60%;
+      height: 300px;
+      width: 300px;
+
+      &-button {
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid $blue;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-25%);
+        background: $blue;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        cursor: pointer;
+        @include btnShadow();
+        font-size: $btn_fs;
+
+        span {
+          text-transform: uppercase;
+        }
+      }
+
+      &-timer {
+        @include bg(cover,center);
+        width: 370px;
+        height: 135px;
+        background-image: url($path + '/unnecessary/timer.png');
+      }
+      &-heading {
+        span {
+          &:first-child {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            color: $dblack;
+            margin-bottom: 10px;
+          }
+
+          &:nth-child(2) {
+            font-family: $font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 100%;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            color: #3559FD;
+            margin-bottom: 5px;
+          }
+
+          &:nth-child(3) {
+            font-family: $font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            color: $dblack;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    &_background {
+      width: 870px;
+      height: 360px;
+      background-image: url($path + '/unnecessary/sales_slider.png');
+      @include  bg(cover, center);
+    }
+  }
+}

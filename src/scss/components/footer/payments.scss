@@ -1,0 +1,117 @@
+.payments {
+  width: 100%;
+  height: 50px;
+  background: #c4c4c4;
+  @include breakpoint($phone) {
+  }
+  &_wrap {
+    max-width: $layoutw;
+    margin: 0 auto;
+    height: 100%;
+    @include flex(center, space-between, wrap);
+
+    @include breakpoint($phone) {
+      @include flex(center, space-between, nowrap);
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+      @include breakpoint($phone) {
+        margin-top: 0;
+        justify-content: space-between;
+      }
+      span {
+        color: $blue;
+      }
+      span, p {
+        font-size: 10px;
+        line-height: 16px;
+      }
+
+      span {
+        margin-left: 15px;
+      }
+      p {
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        margin-right: 16px;
+        padding: 0;
+        color: black;
+
+        @include breakpoint($phone) {
+          width: initial;
+          text-align: left;
+          margin-right: 20px;
+          color: $black!important;
+        }
+      }
+      @include breakpoint($phone) {
+        span,
+        p {
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 0.02em;
+          color: #3559fd;
+          cursor: pointer;
+        }
+      }
+    
+      &_inner {
+        display: flex;
+        width: 100%;
+        background: #c4c4c4;
+        height: 50;
+        justify-content: flex-end;
+        align-items: center;
+
+        @include breakpoint($phone) {
+          margin-left: 7px;
+          width: initial;
+        }
+
+        &-icon {
+          width: 30px;
+          height: 30px;
+          margin: 0 5px;
+          &:last-child {
+            margin-right: 15px;
+          }
+          &:first-child {
+            margin-left: 0;
+          }
+          @include breakpoint($phone) {
+            margin-left: 13px;
+          }
+        }
+
+        .visa {
+          background-image: url($path + "payments/visa.svg");
+        }
+        .paypal {
+          background-image: url($path + "payments/paypal.svg");
+        }
+        .mastercard {
+          background-image: url($path + "payments/mastercard.svg");
+        }
+        .maestro {
+          background-image: url($path + "payments/maestro.svg");
+        }
+        .ebay {
+          background-image: url($path + "payments/maestro.svg");
+        }
+        .apple {
+          background-image: url($path + "payments/apple.svg");
+        }
+        .google {
+          background-image: url($path + "payments/google.svg");
+        }
+        .webmoney {
+          background-image: url($path + "/payments/webmoney.svg");
+        }
+      }
+    }
+  }
+}

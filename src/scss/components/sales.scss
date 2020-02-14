@@ -1,0 +1,81 @@
+.sales {
+  width: 869px;
+  height: 180px;
+  margin-bottom: 30px;
+  display: none;
+  @include breakpoint($phone)  {
+    display: block;
+  }
+
+    &-wrapper {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      &_item {
+        background: $yellow;
+        width: 430px;
+        height: 180px;
+
+        &-inner {
+          padding: 10px;
+          display: flex;
+          align-items: center;
+
+            &_image {
+              width: 160px;
+              height: 160px;
+              @include bg(cover, center);
+            }
+          .image1 {
+            background-image: url($path + '/unnecessary/item1.png');
+          }
+          .image2 {
+            background-image: url($path + '/unnecessary/item2.png');
+          }
+            &_info {
+              font-family: $font;
+              font-style: normal;
+              font-weight: normal;
+              margin-left: 30px;
+
+              &-text {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: $dblack;
+                margin-bottom: 20px;
+                span {
+                  &:nth-child(2) {
+                      color: #3559FD;
+                  }
+                }
+              }
+              &-desc {
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.02em;
+                color: $dblack;
+                margin-bottom: 20px;
+              }
+              &-button {
+                width: 200px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #3559FD;
+                box-sizing: border-box;
+                box-shadow: $button_shadow;
+                border-radius: 30px;
+                color: #3559FD;
+                cursor: pointer;
+                font-size: $btn_fs;
+              }
+            }
+        }
+      }
+    }
+}

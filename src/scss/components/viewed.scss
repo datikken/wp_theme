@@ -1,0 +1,168 @@
+.viewed {
+  height: 150px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 100%;
+  margin-bottom: 20px;
+
+  @include breakpoint($phone) {
+    margin-bottom: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll; display: block;
+    width: 270px;
+    height: 401px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+    @include breakpoint($phone) {
+      display: block;
+    }
+    background-color: $gray;
+    width: 2px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $purple;
+  }
+
+  &_wrapper {
+    display: flex;
+
+    @include breakpoint($phone) {
+      display: block;
+    }
+    &:first-child {
+      margin-left: 10px;
+      @include breakpoint($phone) {
+        margin-left: 0;
+      }
+    }
+    &:last-child {
+      margin-right: 20px;
+      @include breakpoint($phone) {
+        margin-right: 0;
+      }
+    }
+
+    &-item {
+      display: flex;
+      padding-top: 40px;
+      
+      @include breakpoint($phone) {
+        padding-top: 0;
+      }
+
+      &_image {
+        width: 100px;
+        margin-left: 16px;
+        @include bg(contain, center);
+        cursor: pointer;
+        background-image: url($path + "/unnecessary/viewed_product.png");
+        border: none;
+        @include breakpoint($phone) {
+          margin-left: 0;
+          width: initial;
+          // border: 1px solid #e9e9ea;
+        }
+
+        max-width: 100px;
+        height: 100px;
+        left: 375px;
+        top: 1161px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        flex-basis: 50%;
+      }
+
+      &_text {
+        margin-left: 16px;
+        flex-basis: 50%;
+
+        &-heading {
+          font-family: $font;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 0.02em;
+          text-transform: uppercase;
+          color: $dblack;
+          margin-bottom: 20px;
+          padding-top: 10px;
+
+          span {
+            font-weight: 200;
+            &:first-child {
+              font-size: 9px;
+            }
+            &:nth-child(2) {
+              font-weight: 600;
+              font-size: 14px;
+            }
+          }
+        }
+        &-price {
+          font-family: $font;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 18px;
+          display: flex;
+          align-items: flex-end;
+          letter-spacing: 0.02em;
+          color: $dblack;
+          position: relative;
+          cursor: pointer;
+
+          &:after {
+            content: "";
+            display: block;
+            background-image: url($path + "/menu/rub.svg");
+            height: 10px;
+            width: 8px;
+            @include bg(contain, center);
+            margin-left: 5px;
+          }
+          &:before {
+            content: "";
+            display: block;
+            bottom: 0;
+            width: 119px;
+            background: #e9e9ea;
+            top: 37px;
+            height: 2px;
+            position: absolute;
+          }
+        }
+      }
+
+      &_heading {
+        position: absolute;
+        left: 20px;
+        height: 30px;
+
+        @include breakpoint($phone) {
+          position: relative;
+          left: initial;
+          height: initial;
+        }
+        &-text {
+          font-weight: 500;
+          font-family: $font;
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 0.02em;
+          color: $dblack;
+
+          &:after {
+            content: "";
+            display: block;
+            width: 170px;
+            border-bottom: 1px solid #fdd935;
+            margin-top: 17px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}

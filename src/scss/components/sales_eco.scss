@@ -1,0 +1,18 @@
+.sales_eco {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 173px;
+
+  @include breakpoint($phone) {
+    height: 400px;
+    display: block;
+  }
+  
+  &-wrapper {
+      height: 100%;
+      width: 100%;
+      @include bg(contain,center);
+      background-image: url($path + "/eco_programm/banner.png");
+      cursor: pointer;
+  }
+}

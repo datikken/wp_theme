@@ -1,0 +1,67 @@
+@import "/utils/utils";
+@import "/variables/variables";
+@import "/utils/classes";
+@import "/components/header";
+
+@import "/components/menu.scss";
+@import "/components/menu/menu_secondary";
+
+@import "/components/subscription.scss";
+@import "/components/footer/footer";
+@import "/components/footer/footer_categories";
+@import "/components/footer/payments";
+@import "/components/slider";
+@import "/components/layout";
+@import "/components/banner";
+@import "/components/banners_mob";
+@import "/components/viewed";
+@import "/components/sales";
+@import "/components/sales_slider";
+@import "/components/sales_best2";
+@import "/components/sales_eco";
+@import "/components/news";
+@import "/components/carousel";
+@import "/components/breadcrumbs";
+@import "/components/product";
+@import "/components/filters/filters";
+@import "/components/filters/mfilters";
+@import "/components/pagination";
+@import "/components/history";
+@import "/components/product_details";
+@import "/components/product_details-swiper";
+@import "/components/product_info";
+@import "/components/product_comments";
+@import "/components/product_gallery";
+@import "/components/product_feedback-form";
+@import "/components/cart";
+@import "/components/sales_mob";
+@import "/components/information";
+@import "/components/contacts";
+@import "/components/contacts_feedback";
+@import "/components/hits";
+@import "/components/hits_ofers";
+@import "/components/blog";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: $font;
+  font-style: normal;
+  font-weight: normal;
+  overflow-x: hidden !important;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url($path + "/img/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-semibold";
+  src: url($path + "fonts/Montserrat-semibold.ttf");
+}

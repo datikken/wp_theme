@@ -1,0 +1,48 @@
+.as-visible {
+  visibility: visible !important;
+}
+.overflow {
+  overflow: hidden !important;
+  position: fixed;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.mobile-hide {
+  display: none !important;
+  @include breakpoint($phone) {
+    display: block !important;
+  }
+}
+
+.desktop-hide {
+  @include breakpoint($phone) {
+    display: none !important;
+  }
+}
+.activeItem {
+  position: relative;
+  color: black !important;
+  &:after {
+    background-image: url("/img/icons/arrow_right_black.svg") !important;
+  }
+
+  @include breakpoint($phone) {
+    &:before {
+      position: absolute;
+      margin-top: 10px;
+      content: "";
+      display: block;
+      height: 3px;
+      width: 100%;
+      bottom: -22px;
+      background-image: -webkit-linear-gradient(left, #d835fd, #3b58fd);
+    }
+  }
+}
+.blue {
+  color: $blue;
+}
